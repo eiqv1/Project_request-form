@@ -1,0 +1,36 @@
+.flex-container-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .form-info-course {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+
+        input {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+
+    }
+}        
+
+.short-input {
+    width: 70px;
+}
+
+.medium-input {
+    width: 180px;
+}
+
+.long-input {
+    width: 300px;
+}

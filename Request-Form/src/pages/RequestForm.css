@@ -1,0 +1,39 @@
+:root {
+    --bluesky: #4197E6;
+}
+
+.container-RequsetSelector {
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    .top-title {
+        color: #868686;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 35px;
+        margin-top: 5px;
+        color: var(--bluesky);
+    }
+
+    .underline-title {
+        border: 1px solid #3381c2;
+    }
+
+    .request-selector {
+        margin-top: 30px;
+        color: var(--bluesky);
+    }
+    
+    .request-selector a {
+        text-decoration: none;
+        color: var(--bluesky);
+    }
+
+    .request-selector li {
+        margin: 10px 0;
+    }
+}

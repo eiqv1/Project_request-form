@@ -1,0 +1,140 @@
+.container {
+    background-color: #fff;
+    padding: 20px 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    max-width: 1200px;
+    margin: 30px auto;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+form {
+    font-size: 15px;
+    
+    select {
+      border-radius: 8px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+}
+
+.form-head {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 20px;
+
+    label {
+    margin-right: 10px;
+    }
+    
+    input {
+    font-size: 15px;
+    width: 30%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid: auto auto / auto auto auto;
+    gap: 10px 0;
+}
+
+.form-info {
+    display: flex;
+    align-items: center;
+
+    select {
+        margin-right: 10px;
+    }
+
+    label {
+    margin-right: 10px;
+    }
+
+    div {
+      margin-right: 10px;
+    }
+
+    input, textarea {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    }
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  
+
+}
+
+.grid-container-checkbox {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+
+  input {
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+}
+
+.head-closing {
+  text-indent: 80px;
+}
+
+.body-closing {
+  text-indent: 80px;
+}
+
+.closing {
+  text-indent: 80px;
+  margin-bottom: 10px;
+}
+
+.student-signature {
+  display: grid;
+  justify-content: flex-end;
+}
+
+.submit-btn {
+    text-align: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    button {
+        background-color: #2196f3;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px 25px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #1976d2;
+    }
+}
