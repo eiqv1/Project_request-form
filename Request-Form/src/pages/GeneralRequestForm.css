@@ -97,9 +97,11 @@ form {
         border-radius: 8px;
         border: none;
         cursor: pointer;
+        transition: all 0.2s ease;
     }
 
     button:hover{
         background-color: #1976d2;
+        transform: translateY(-3px);
     }
 }

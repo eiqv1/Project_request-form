@@ -126,11 +126,11 @@ const LateAddDropForm = () => {
             <div className="form-info">
               <div className="body-closing">
                 <label>มีความประสงค์ขอ</label>
-                <input type="checkbox" />
+                <input type="radio" id="addCourse" name="requestType" value="add" />
                 <label>เพิ่มรายวิชา</label>
-                <input type="checkbox" />
+                <input type="radio" id="withdrawCourse" name="requestType" value="withdraw" />
                 <label>ถอนรายวิชา</label>
-                <input type="checkbox" />
+                <input type="radio" id="lateAddWithdraw" name="requestType" value="late" />
                 <label>เพิ่มและถอนรายวิชาล่าช้า</label>
               </div>
             </div>

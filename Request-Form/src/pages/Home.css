@@ -1,0 +1,130 @@
+.page-title {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.petition-list {
+  width: 100%;
+  /* max-width: 700px; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.petition-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 16px 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.petition-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+.petition-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.petition-info {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 10px 0;
+}
+
+/* Modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 90%;
+  max-width: 520px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.2s ease;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.modal-details p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.modal-suggestion {
+  margin-top: 15px;
+}
+
+.modal-suggestion textarea {
+  width: 100%;
+  min-height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn.approve {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn.reject {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.close {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
