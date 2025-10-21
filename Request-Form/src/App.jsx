@@ -15,6 +15,7 @@ import LateAddDropForm from './pages/LateAddDropForm'
 import LateRegistrationForm from './pages/LateRegistrationForm'
 import CourseCancellationForm from './pages/CourseCancellationForm'
 import ConfirmRegistrationForm from './pages/ConfirmRegistrationForm'
+import AdminTeacherManagement from './pages/Admin/AdminTeacherManagement'
 
 
 const router = createBrowserRouter([
@@ -35,7 +36,8 @@ const router = createBrowserRouter([
       { path: 'late-add-drop-form', element: <LateAddDropForm />},
       { path: 'late-registration-form', element: <LateRegistrationForm />},
       { path: 'course-cancellation-form', element: <CourseCancellationForm />},
-      { path: 'confirm-registration-form', element: <ConfirmRegistrationForm />}
+      { path: 'confirm-registration-form', element: <ConfirmRegistrationForm />},
+      { path: 'admin/admin-teacher-management', element: <AdminTeacherManagement />},
     ]
   }
 ])
