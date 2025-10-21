@@ -16,6 +16,7 @@ import LateRegistrationForm from './pages/LateRegistrationForm'
 import CourseCancellationForm from './pages/CourseCancellationForm'
 import ConfirmRegistrationForm from './pages/ConfirmRegistrationForm'
 import AdminTeacherManagement from './pages/Admin/AdminTeacherManagement'
+import HeadAdvisorApproval from './pages/Teacher/HeadAdvisorApproval'
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       { path: 'course-cancellation-form', element: <CourseCancellationForm />},
       { path: 'confirm-registration-form', element: <ConfirmRegistrationForm />},
       { path: 'admin/admin-teacher-management', element: <AdminTeacherManagement />},
+      { path: 'Teacher/head-advisor-approval', element: <HeadAdvisorApproval />},
     ]
   }
 ])
